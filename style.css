@@ -1,0 +1,51 @@
+/* Common CSS Style */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Nav Style */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav>ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+
+
+}
+
+nav>ul li {
+    margin-right: 51px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747;
+}
+
+.primary-color {
+    color: #FD6E0A;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.pry_button {
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0px;
+    padding: 15px 35px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+
+}
