@@ -53,9 +53,9 @@ nav a {
 /* Header Style */
 .header {
     background: #FFF8F3;
-    background-image: url("images/header_bg.png");
+    background-image: url("images/header_bg.png"), url("images/developer.png");
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 }
 
 .banner {
@@ -103,6 +103,10 @@ nav a {
 main {
     max-width: 1140px;
     margin: 0 auto;
+}
+
+main section {
+    margin-top: 130px;
 }
 
 /* About Section */
@@ -164,21 +168,130 @@ main {
 .skills-contaciner {
     display: flex;
 }
-.skill{
-    width: 270px;
+
+.skill {
+    /* width: 270px; */
     border-radius: 5px;
     margin-right: 24px;
     padding: 30px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
+
 .skills-contaciner img {
     width: 44px;
     height: 44px;
     flex-shrink: 0;
 }
-.skills-contaciner h3{
-    color:#181818;
+
+.skills-contaciner h3 {
+    color: #181818;
     font-size: 20px;
     font-weight: 700;
     line-height: normal;
+}
+
+.resume>h2 {
+    color: var#181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 113px;
+}
+
+.resume-container {
+    display: flex;
+    gap: 70px;
+}
+
+.resume-container h2 {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.resume-container h3 {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.resume-content .resume-institute {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.resume-content p {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 0px;
+    text-align: justify;
+
+    /* 175% */
+}
+
+.resume-content hr {
+    margin-right: 15px;
+}
+
+.download-CV {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 130px;
+}
+
+/* Footer Design*/
+.footer {
+    display: flex;
+    margin: 130px 0px;
+    align-items: center;
+    background: #FFF8F3;
+}
+
+.footer .connect {
+    width: 50%;
+    padding: 130px 230px;
+    gap: 100px;
+
+
+}
+
+.footer input,
+textarea {
+    display: block;
+    margin-bottom: 24px;
+
+}
+
+.footer input,textarea {
+    width: 100%;
+    height: 64px;
+    border: none;
+    border-radius: 5px;
+    background: #FFF;
+    padding-right: 50px;
+    
+}
+
+.footer .connect h3 {
+    color: #181818;
+    /* text-align: center; */
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.footer .connect p {
+    color: var #474747;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
 }
